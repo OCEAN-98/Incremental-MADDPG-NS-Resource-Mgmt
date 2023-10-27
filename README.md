@@ -10,13 +10,13 @@ The base file includes three: 'MADDPG.py' and 'multi-agent.py' to provide AI, an
 
 Apart from that, as you have seen, there are files titled in the format 'XtoY_slices' and 'X_slices'. These are the application scenarios with different numbers of network slices, where 'X_slices' denotes the base scenario, training MADDPG from scratch; and on the other hand, 'XtoY_slices' represents the incremental learning model origin from scenario *X* to *Y*. 
 
-You can easily run the DRL process by the 'main.py' file in each parent direction for the corresponding scenario. And before applying incremental learning, it is better to finish the base scenarios in case of errors and lack of dependency. All results will be automatically saved in the 'results' file in the same direction. For visual result just runs 'read_out.py'.
+You can easily run the DRL process by the 'main.py' file in each parent direction for the corresponding scenario. And before applying incremental learning, it is better to finish the base scenarios in case of errors and lack of dependency. All results will be automatically saved in the 'results' file in the same direction. For visual results, just run 'read_out.py'.
 
 The following figure represents the experimental relationships between those cases. If you are confused about FigureXX, you are able to find correct correspondence relations in 'Manuscript.pdf', or you can check it at https://arxiv.org/abs/2310.17523.
 
 <img src="./Figures/relations.png" width="500" />
 
-For base scenarios 3, 4 and 5, you will get similar figures like:
+For base scenarios 3, 4, 5 and 6, you will get similar figures like (hopefully order is correct):
 
 <table>
     <tr>
@@ -29,8 +29,7 @@ For base scenarios 3, 4 and 5, you will get similar figures like:
     </tr>
 </table>
 
-
-And for 4-5, 4-5-6, 4-6, 5-6 and 4-3, you will see figures like
+And for 4-5, 4-5-6, 4-6, 5-6 and 4-3, you will see figures like:
 
 <table>
     <tr>
