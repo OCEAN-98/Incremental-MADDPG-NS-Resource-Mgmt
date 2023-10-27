@@ -1,8 +1,12 @@
 # Inremental_MADDPG_Network_Slicing
 
-**A Brief description of this repository:** "Multi-access edge computing provides local resources in mobile networks as the essential means for meeting the demands of emerging ultra-reliable low-latency communications. At the edge, dynamic computing requests require advanced resource management for adaptive network slicing, including resource allocations, function scaling and load balancing to utilize only the necessary resources in resource-constraint networks. 
+*This work is supported by the UK-funded project REASON under the Future Open Networks Research Challenge sponsored by DSIT.*
 
-Recent solutions are designed for a static number of slices. Therefore, the painful process of optimization is required again with any update on the number of slices. In addition, these solutions intend to maximize instant rewards, neglecting long-term resource scheduling. Unlike these efforts, we propose an algorithmic approach based on multi-agent deep deterministic policy gradient (MADDPG) for optimizing resource management for edge network slicing. Our objective is two-fold: (i) maximizing long-term network slicing benefits in terms of delay and energy consumption, and (ii) adapting to slice number changes. "
+**A Brief description of this repository:** 
+
+Multi-access edge computing provides local resources in mobile networks as the essential means for meeting the demands of emerging ultra-reliable low-latency communications. At the edge, dynamic computing requests require advanced resource management for adaptive network slicing, including resource allocations, function scaling and load balancing to utilize only the necessary resources in resource-constraint networks. 
+
+Recent solutions are designed for a static number of slices. Therefore, the painful process of optimization is required again with any update on the number of slices. In addition, these solutions intend to maximize instant rewards, neglecting long-term resource scheduling. Unlike these efforts, we propose an algorithmic approach based on multi-agent deep deterministic policy gradient (MADDPG) for optimizing resource management for edge network slicing. Our objective is two-fold: (i) maximizing long-term network slicing benefits in terms of delay and energy consumption, and (ii) adapting to slice number changes.
 
 **Handbook** 
 
@@ -46,8 +50,8 @@ And for 4-5, 4-5-6, 4-6, 5-6 and 4-3, you will see figures like:
     </tr>
 </table>
 
-Hope you like the code.
+You will find more information in the comments through the code. Hope you like it.
 
 If you need help, easily raise an issue. Or come to me / my colleague Yulin by *ocean.h.li@bristol.ac.uk / yuelin.liu@bristol.ac.uk*.
-Our supervisors are Dr. Shuangyi Yan and Dr. Xenofon Vasilakos.
+Our supervisors are Dr Shuangyi Yan (*shuangyi.yan@bristol.ac.uk*) and Dr Xenofon Vasilakos (*xenofon.vasilakos@bristol.ac.uk*).
 
