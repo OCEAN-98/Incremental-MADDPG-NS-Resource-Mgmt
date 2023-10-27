@@ -4,7 +4,7 @@ from multi_agent import *
 current_dir = os.path.abspath(os.path.dirname(__file__))
 
 chkpt_dir = os.path.join(current_dir, 'models')
-load_dir = '/Users/ocean/git/NetworkSlicing/5_slices/models'
+load_dir = '.../4to5_slices/models'
 
 n_actions = 5
 alpha=0.01
