@@ -1,5 +1,9 @@
 # Inremental_MADDPG_Network_Slicing
 
+<p align="center">
+<img src="./Figures/logo.png" width="200" />
+</p>
+
 *This work is supported by the UK-funded project REASON under the Future Open Networks Research Challenge sponsored by DSIT.*
 
 **A Brief description of this repository:** 
@@ -18,7 +22,9 @@ You can easily run the DRL process by the 'main.py' file in each parent directio
 
 The following figure represents the experimental relationships between those cases. If you are confused about FigureXX, you are able to find correct correspondence relations in 'Manuscript.pdf', or you can check it at https://arxiv.org/abs/2310.17523. And it definitely can help you better understand the code and logic.
 
-<img src="./Figures/relations.png" width="500" />
+<p align="center">
+<img src="./Figures/relations.png" width="400" />
+</p>
 
 For base scenarios 3, 4, 5 and 6, you will get similar figures like (hopefully order is correct):
 
