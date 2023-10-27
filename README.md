@@ -12,7 +12,7 @@ Apart from that, as you have seen, there are files titled in the format 'XtoY_sl
 
 You can easily run the DRL process by the 'main.py' file in each parent direction for the corresponding scenario. And before applying incremental learning, it is better to finish the base scenarios in case of errors and lack of dependency. All results will be automatically saved in the 'results' file in the same direction. For visual results, just run 'read_out.py'.
 
-The following figure represents the experimental relationships between those cases. If you are confused about FigureXX, you are able to find correct correspondence relations in 'Manuscript.pdf', or you can check it at https://arxiv.org/abs/2310.17523.
+The following figure represents the experimental relationships between those cases. If you are confused about FigureXX, you are able to find correct correspondence relations in 'Manuscript.pdf', or you can check it at https://arxiv.org/abs/2310.17523. And it definitely can help you better understand the code and logic.
 
 <img src="./Figures/relations.png" width="500" />
 
